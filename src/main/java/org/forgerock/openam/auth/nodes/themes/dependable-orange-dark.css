@@ -1,91 +1,80 @@
 /*
- * Custom Theme Node
- * Overrides existing OOTB styles to allow for easy theme customization
- * Copyright 2015-2020 ForgeRock AS.
- * ForgeRock Orange Light Mode
- * 
+ * Name: Dependable (ForgeRock Orange Dark Mode)
  *
- * @defaultmain: #0c2d71
- * @defaultlevel1: #296bc2
- * @defaultlevel2: #5987cd
- * @defaultlevel3: #7ea6da
- * 
- * @primarymain: #e86f2d
- * @primarylevel1: #ed9c38
- * @primarylevel2: #f1af5a
- * @primarylevel3: #f4c488
+ * Dynamically theme the ForgeRock out-of-the-box login UI on the fly.
+ * Copyright 2015-2020 ForgeRock AS.
  */
-body {
-    color: #000;
-    background-color: #fff 
+ body {
+    color: #fff;
+    background-color: #202124 
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: #e86f2d;
+    color: #f4c488;
 }
 a {
-    color: #ed9c38;
+    color: #f4c488;
     text-decoration: none 
 }
 a:hover, a:focus {
-    color: #ed9c38;
+    color: #f4c488;
     text-decoration: underline 
 }
 .form-control {
-    color: #262930;
-    background-color: #fff;
-    border: 1px solid #262930;
+    color: #202124;
+    background-color: #e2e2e2;
+    border: 1px solid #cecece;
 }
 .form-control::-moz-placeholder {
-    color: #ccc;
+    color: #68696a;
     opacity: 1 
 }
 .form-control:-ms-input-placeholder {
-    color: #ccc 
+    color: #68696a 
 }
 .form-control::-webkit-input-placeholder {
-    color: #ccc 
+    color: #68696a 
 }
 .btn-default {
     color: #fff;
-    background-color: #7ea6da;
-    border-color: #5987cd; 
+    background-color: #5987cd;
+    border-color: #296bc2; 
 }
 .btn-default:focus, .btn-default.focus {
     color: #fff;
-    background-color: #7ea6da;
-    border-color: #5987cd; 
+    background-color: #5987cd;
+    border-color: #296bc2; 
 }
 .btn-default:hover {
     color: #fff;
-    background-color: #5987cd;
-    border-color: #5987cd; 
+    background-color: #296bc2;
+    border-color: #296bc2; 
 }
 .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
     color: #fff;
-    background-color: #5987cd;
-    border-color: #5987cd; 
+    background-color: #296bc2;
+    border-color: #296bc2; 
 }
 .btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover,.btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus,.btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus{
     color: #fff;
-    background-color: #5987cd;
-    border-color: #5987cd; 
+    background-color: #296bc2;
+    border-color: #296bc2; 
 }
 .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus{
-    background-color: #296bc2;
-    border-color: 1px solid rgba(#296bc2, 0.5);
+    background-color: #7ea6da;
+    border-color: 1px solid #7ea6da;
 }
 .btn-default .badge {
-    color: #7ea6da;
-    background-color: #fff 
+    color: #296bc2;
+    background-color: #e2e2e2 
 }
 .btn-primary {
     color: #fff;
-    background-color: #f4c488;
+    background-color: #ed9c38;
     border-color: #f1af5a; 
 }
 .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #f4c488;
+    background-color: #ed9c38;
     border-color: #f1af5a; 
 }
 .btn-primary:hover {
@@ -105,49 +94,71 @@ a:hover, a:focus {
 }
 .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus{
     background-color: #f1af5a;
-    border-color: 1px solid rgba(#ed9c38, 0.5);
+    border-color: 1px solid #f4c488;
 }
 .btn-primary .badge {
-    color: #f4c488;
-    background-color: #fff 
+    color: #ed9c38;
+    background-color: #e2e2e2 
 }
 .navbar-inverse{
     color:#fff;
-    background-color: #ed9c38;
-    border-color:rgba(#ed9c38, 0.5) 
+    background-color: #f4c488;
+    border-color: #f4c488;
 }
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus{
     color:#fff;
-    background-color:#ed9c38;
+    background-color:#f4c488;
 }
 .navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:hover,.navbar-inverse .navbar-nav>.disabled>a:focus{
     color:#fff;
 }
 .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a:focus{
     color:#fff;
-    background-color:#ed9c38; 
+    background-color:#f4c488; 
 }
 .navbar.navbar-inverse .dropdown-menu>li>a {
-    color: #f4c488;
+    color: #ed9c38;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #f4c488;
+    color: #ed9c38;
 }
 .navbar.navbar-inverse .dropdown-menu {
-    background-color: #ed9c38;
+    background-color: #f4c488;
 }
 .navbar.navbar-inverse .dropdown-menu .divider {
-    background-color: rgba(#ed9c38, 0.5);
+    background-color: #f4c488;
 }
 .navbar.navbar-inverse #navDropdownMenu .dropdown-header {
     color: #fff;
 }
+.navbar.navbar-inverse .navbar-nav>li>a .caret {
+    color: #fff;
+}
 .bg-primary {
     color: #fff;
+    background-color: #ed9c38;
+}
+.page-header .header-icon {
+    color: #fff;
+    background-color: #ed9c38;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    color: #fff;
+    background-color: #ed9c38;
+    border-color: #ed9c38;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color:#fff;
+    background-color: #f4c488;
+}
+.panel {
+    background-color: #f4c488;
+}
+.panel-footer {
     background-color: #f4c488;
 }
 .footer {
-    border-top: 1px solid rgba(#ed9c38, 0.5);
-    background-color: #ed9c38;
-    color: #fff;
+    border-top: 1px solid #777;
+    background-color: #121212;
+    color: #777;
 }

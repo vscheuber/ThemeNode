@@ -1,0 +1,164 @@
+/*
+ * Name: Trustworthy (ForgeRock Green Light Mode)
+ *
+ * Dynamically theme the ForgeRock out-of-the-box login UI on the fly.
+ * Copyright 2015-2020 ForgeRock AS.
+ */
+ body {
+    color: #000;
+    background-color: #fff 
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #53b88a;
+}
+a {
+    color: #53b88a;
+    text-decoration: none 
+}
+a:hover, a:focus {
+    color: #53b88a;
+    text-decoration: underline 
+}
+.form-control {
+    color: #262930;
+    background-color: #fff;
+    border: 1px solid #262930;
+}
+.form-control::-moz-placeholder {
+    color: #ccc;
+    opacity: 1 
+}
+.form-control:-ms-input-placeholder {
+    color: #ccc 
+}
+.form-control::-webkit-input-placeholder {
+    color: #ccc 
+}
+.btn-default {
+    color: #fff;
+    background-color: #d77f8a;
+    border-color: #cc4f63; 
+}
+.btn-default:focus, .btn-default.focus {
+    color: #fff;
+    background-color: #d77f8a;
+    border-color: #cc4f63; 
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #cc4f63;
+    border-color: #cc4f63; 
+}
+.btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+    color: #fff;
+    background-color: #cc4f63;
+    border-color: #cc4f63; 
+}
+.btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover,.btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus,.btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus{
+    color: #fff;
+    background-color: #cc4f63;
+    border-color: #cc4f63; 
+}
+.btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus{
+    background-color: #bc2a3c;
+    border-color: 1px solid #bc2a3c;
+}
+.btn-default .badge {
+    color: #d77f8a;
+    background-color: #fff 
+}
+.btn-primary {
+    color: #fff;
+    background-color: #9cd5b8;
+    border-color: #7ac7a1; 
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #9cd5b8;
+    border-color: #7ac7a1; 
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #7ac7a1;
+    border-color: #7ac7a1;
+}
+.btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
+    color: #fff;
+    background-color: #7ac7a1;
+    border-color: #7ac7a1;
+}
+.btn-primary:active:hover, .btn-primary.active:hover, .open>.dropdown-toggle.btn-primary:hover,.btn-primary:active:focus, .btn-primary.active:focus, .open>.dropdown-toggle.btn-primary:focus,.btn-primary:active.focus, .btn-primary.active.focus, .open>.dropdown-toggle.btn-primary.focus{
+    color: #fff;
+    background-color: #7ac7a1;
+    border-color: #7ac7a1; 
+}
+.btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus{
+    background-color: #7ac7a1;
+    border-color: 1px solid #53b88a;
+}
+.btn-primary .badge {
+    color: #9cd5b8;
+    background-color: #fff 
+}
+.navbar-inverse{
+    color:#fff;
+    background-color: #53b88a;
+    border-color: #53b88a; 
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus{
+    color:#fff;
+    background-color:#53b88a;
+}
+.navbar-inverse .navbar-nav>.disabled>a,.navbar-inverse .navbar-nav>.disabled>a:hover,.navbar-inverse .navbar-nav>.disabled>a:focus{
+    color:#fff;
+}
+.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a:focus{
+    color:#fff;
+    background-color:#53b88a; 
+}
+.navbar.navbar-inverse .dropdown-menu>li>a {
+    color: #9cd5b8;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #9cd5b8;
+}
+.navbar.navbar-inverse .dropdown-menu {
+    background-color: #53b88a;
+}
+.navbar.navbar-inverse .dropdown-menu .divider {
+    background-color: #53b88a;
+}
+.navbar.navbar-inverse #navDropdownMenu .dropdown-header {
+    color: #fff;
+}
+.navbar.navbar-inverse .navbar-nav>li>a .caret {
+    color: #fff;
+}
+.bg-primary {
+    color: #fff;
+    background-color: #9cd5b8;
+}
+.page-header .header-icon {
+    color: #fff;
+    background-color: #9cd5b8;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    color: #fff;
+    background-color: #53b88a;
+    border-color: #53b88a;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color:#000;
+    background-color: #fff;
+}
+.panel {
+    background-color: #fff;
+}
+.panel-footer {
+    background-color: #fff;
+}
+.footer {
+    border-top: 1px solid #777;
+    background-color: #e2e2e2;
+    color: #777;
+}

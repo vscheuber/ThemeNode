@@ -1,22 +1,10 @@
 /*
- * Custom Theme Node
- * Overrides existing OOTB styles to allow for easy theme customization
- * Copyright 2015-2020 ForgeRock AS.
- * ForgeRock Blue Dark Mode
- * 
+ * Name: Confident (ForgeRock Blue Dark Mode)
  *
- * @primarymain: #7ea6da
- * @primarylevel1: #7ea6da
- * @primarylevel2: #5987cd
- * @primarylevel3: #296bc2
- * 
- * @defaultmain: #f4c488
- * @defaultlevel1: #f4c488
- * @defaultlevel2: #f1af5a
- * @defaultlevel3: #ed9c38
+ * Dynamically theme the ForgeRock out-of-the-box login UI on the fly.
+ * Copyright 2015-2020 ForgeRock AS.
  */
-
-body {
+ body {
     color: #e2e2e2;
     background-color: #202124 
 }
@@ -73,7 +61,7 @@ a:hover, a:focus {
 }
 .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus{
     background-color: #f4c488;
-    border-color: 1px solid rgba(#f4c488, 0.5);
+    border-color: 1px solid #ed9c38;
 }
 .btn-default .badge {
     color: #ed9c38;
@@ -106,7 +94,7 @@ a:hover, a:focus {
 }
 .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus{
     background-color: #5987cd;
-    border-color: 1px solid rgba(#7ea6da, 0.5);
+    border-color: 1px solid #5987cd;
 }
 .btn-primary .badge {
     color: #296bc2;
@@ -115,7 +103,7 @@ a:hover, a:focus {
 .navbar-inverse{
     color:#e2e2e2;
     background-color: #7ea6da;
-    border-color:rgba(#7ea6da, 0.5) 
+    border-color: #5987cd; 
 }
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus{
     color:#e2e2e2;
@@ -138,7 +126,7 @@ a:hover, a:focus {
     background-color: #7ea6da;
 }
 .navbar.navbar-inverse .dropdown-menu .divider {
-    background-color: rgba(#7ea6da, 0.5);
+    background-color: #5987cd;
 }
 .navbar.navbar-inverse #navDropdownMenu .dropdown-header {
     color: #e2e2e2;
@@ -170,7 +158,7 @@ a:hover, a:focus {
     background-color: #7ea6da;
 }
 .footer {
-    border-top: 1px solid rgba(#7ea6da, 0.5);
-    background-color: #7ea6da;
-    color: #e2e2e2;
+    border-top: 1px solid #777;
+    background-color: #121212;
+    color: #777;
 }

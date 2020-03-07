@@ -68,7 +68,7 @@ import com.sun.identity.sm.ServiceManager;
 public class ThemeNodePlugin extends AbstractNodeAmPlugin {
 	
     private final Logger logger = LoggerFactory.getLogger("amAuth");
-	static private String currentVersion = "0.0.7";
+	static private String currentVersion = "1.0.0";
 	
     /** 
      * Specify the Map of list of node classes that the plugin is providing. These will then be installed and

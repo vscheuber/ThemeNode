@@ -1,7 +1,9 @@
 # Theme Node
 Dynamically theme the ForgeRock out-of-the-box login UI on the fly.
 
-An authentication node for ForgeRock's [Identity Platform][forgerock_platform] 6.5.2 and above. This node allows you to customize the look and feel of any authentication or registration flow and optionally change the default *Log In* button's text. A number of beautifully styled themes are included to bring color to your flows. You also have the option to fully customize an existing theme and create your own themes.
+_Artwork by Linh Nguyen_
+
+An authentication node for ForgeRock's [Identity Platform][forgerock_platform] 6.5.2 and above. This node allows you to customize the look and feel of any authentication or registration flow and optionally change the default *Log In* button's text. A number of beautifully styled themes by Linh Nguyen are included to bring color to your flows. You also have the option to fully customize an existing theme and create your own themes.
 
 
 Download a release build fom the *release* tab or clone this repository to build your own release. Copy the .jar file from your download location or the *./target* directory (if you built it yourself) into the *../web-container/webapps/openam/WEB-INF/lib* directory where AM is deployed.  Restart the web container to pick up the new node.  The node will then appear in the authentication trees components palette.

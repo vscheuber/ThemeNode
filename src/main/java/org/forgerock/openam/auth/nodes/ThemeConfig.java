@@ -17,7 +17,7 @@ public interface ThemeConfig {
 	String id();
 
 	@Attribute(order = 100, validators = {RequiredValueValidator.class})
-    default Theme theme() { return Theme.FR_ORANGE; }
+    default Theme theme() { return Theme.DEPENDABLE_ORANGE_DARK; }
 
     @Attribute(order = 200, validators = {RequiredValueValidator.class})
     default boolean replaceLogo() { return true; }
@@ -48,9 +48,9 @@ public interface ThemeConfig {
     @Attribute(order = 700)
     default Map<String, String> customThemes() {
     		Map<String, String> props = new HashMap<String, String>();
-    		props.put("Beach", ThemeUtils.loadCSSFromFile("Beach.css"));
-    		props.put("Green", ThemeUtils.loadCSSFromFile("Green.css"));
-    		props.put("Red", ThemeUtils.loadCSSFromFile("Red.css"));
+    		props.put("Beach", ThemeUtils.loadCSSFromFile("custom-beach.css"));
+    		props.put("Green", ThemeUtils.loadCSSFromFile("custom-green.css"));
+    		props.put("Red", ThemeUtils.loadCSSFromFile("custom-red.css"));
     		return props;
     	}
 
@@ -70,18 +70,24 @@ public interface ThemeConfig {
     
 	public static enum Theme {
 		NONE,
-		FR_BLUE_DARK,
-		FR_BLUE,
-		FR_ORANGE,
+		CONFIDENT_BLUE_DARK,
+		DEPENDABLE_ORANGE_DARK,
+		FRESH_ORANGE,
+		HARMONIOUS_RED,
+		SOOTHING_BLUE,
+		TRUSTWORTHY_GREEN,
 		CUSTOM
 	}
 
 	@SuppressWarnings("serial")
 	public static final Map<Theme, String> themes = new TreeMap<Theme, String>() {
 		{
-			put(Theme.FR_BLUE_DARK, ThemeUtils.loadCSSFromFile("theme-forgerock-blue-dark.css"));
-			put(Theme.FR_BLUE, ThemeUtils.loadCSSFromFile("theme-forgerock-blue.css"));
-			put(Theme.FR_ORANGE, ThemeUtils.loadCSSFromFile("theme-forgerock-orange.css"));
+			put(Theme.CONFIDENT_BLUE_DARK, ThemeUtils.loadCSSFromFile("confident-blue-dark.css"));
+			put(Theme.DEPENDABLE_ORANGE_DARK, ThemeUtils.loadCSSFromFile("dependable-orange-dark.css"));
+			put(Theme.FRESH_ORANGE, ThemeUtils.loadCSSFromFile("fresh-orange.css"));
+			put(Theme.HARMONIOUS_RED, ThemeUtils.loadCSSFromFile("harmonious-red.css"));
+			put(Theme.SOOTHING_BLUE, ThemeUtils.loadCSSFromFile("soothing-blue.css"));
+			put(Theme.TRUSTWORTHY_GREEN, ThemeUtils.loadCSSFromFile("trustworthy-green.css"));
 		}
 	};
 

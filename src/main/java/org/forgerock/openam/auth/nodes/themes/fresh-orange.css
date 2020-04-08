@@ -59,7 +59,7 @@ a:hover, a:focus {
     background-color: #5987cd;
     border-color: #5987cd; 
 }
-.btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus{
+.btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus{
     background-color: #296bc2;
     border-color: 1px solid #5987cd;
 }
@@ -92,7 +92,7 @@ a:hover, a:focus {
     background-color: #f1af5a;
     border-color: #f1af5a; 
 }
-.btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus{
+.btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus{
     background-color: #f1af5a;
     border-color: 1px solid #f1af5a;
 }

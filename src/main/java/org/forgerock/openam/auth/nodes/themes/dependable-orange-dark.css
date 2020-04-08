@@ -155,6 +155,9 @@ a:hover, a:focus {
 .panel {
     background-color: #f4c488;
 }
+.panel-body, h3, h4 {
+    color:#fff;
+}
 .panel-footer {
     background-color: #f4c488;
 }

@@ -184,7 +184,19 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus,
 .am-panel-card:not(.am-panel-card-muted):hover {
     border: 1px solid #cc4f63;
 }
+.am-panel-card .card-menu button.btn-link:focus,.am-panel-card .card-menu button.btn-link:hover{
+    color:#cc4f63
+}
+.am-panel-card .card-footer .text-success{
+    color:#cc4f63
+}
 .text-primary {
+    color: #cc4f63;
+}
+.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{
+    background-color:#cc4f63
+}
+.bootstrap-dialog.type-default .modal-header, .bootstrap-dialog.type-primary .modal-header {
     color: #cc4f63;
 }
 .footer {

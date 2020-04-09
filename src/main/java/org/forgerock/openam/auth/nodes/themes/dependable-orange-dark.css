@@ -185,8 +185,23 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus,
 .am-panel-card:not(.am-panel-card-muted):hover {
     border: 1px solid #f1af5a;
 }
+.am-panel-card .card-menu button.btn-link:focus,.am-panel-card .card-menu button.btn-link:hover{
+    color:#f1af5a
+}
+.am-panel-card .card-footer .text-success{
+    color:#f1af5a
+}
 .text-primary {
+    color: #777;
+}
+.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{
+    background-color:#f1af5a
+}
+.bootstrap-dialog.type-default .modal-header, .bootstrap-dialog.type-primary .modal-header {
     color: #f1af5a;
+}
+.am-panel-card {
+    background-color:#e8ebf3;
 }
 .footer {
     border-top: 1px solid #777;

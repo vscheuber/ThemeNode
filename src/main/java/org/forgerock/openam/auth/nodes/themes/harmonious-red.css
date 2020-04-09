@@ -94,7 +94,7 @@ a:hover, a:focus {
 }
 .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus{
     background-color: #cc4f63;
-    border-color: 1px solid #bc2a3c;
+    border-color: 1px solid #cc4f63;
 }
 .btn-primary .badge {
     color: #d77f8a;
@@ -155,7 +155,7 @@ a:hover, a:focus {
     background-color: #fff;
 }
 .panel-body, h3, h4 {
-    color:#fff;
+    color:#000;
 }
 .panel-footer {
     background-color: #fff;

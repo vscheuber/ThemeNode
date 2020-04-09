@@ -61,7 +61,7 @@ a:hover, a:focus {
 }
 .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus{
     background-color: #296bc2;
-    border-color: 1px solid #5987cd;
+    border-color: 1px solid #296bc2;
 }
 .btn-default .badge {
     color: #7ea6da;
@@ -155,7 +155,7 @@ a:hover, a:focus {
     background-color: #fff;
 }
 .panel-body, h3, h4 {
-    color:#fff;
+    color:#000;
 }
 .panel-footer {
     background-color: #fff;

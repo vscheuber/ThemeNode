@@ -160,6 +160,24 @@ a:hover, a:focus {
 .panel-footer {
     background-color: #7ea6da;
 }
+.label-primary {
+	background-color: #5987cd
+}
+.label-primary[href]:hover, .label-primary[href]:focus {
+	background-color: #7ea6da
+}
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+	border-color: #5987cd
+}
+a.list-group-item, button.list-group-item {
+	color: #5987cd
+}
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus,
+	button.list-group-item:focus {
+	color: #5987cd;
+	text-decoration: none;
+	background-color: #263035
+}
 .footer {
     border-top: 1px solid #777;
     background-color: #121212;

@@ -61,7 +61,7 @@ a:hover, a:focus {
 }
 .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus{
     background-color: #f4c488;
-    border-color: 1px solid #f4c488;
+    border-color: #f4c488;
 }
 .btn-default .badge {
     color: #ed9c38;
@@ -94,7 +94,7 @@ a:hover, a:focus {
 }
 .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus{
     background-color: #5987cd;
-    border-color: 1px solid #5987cd;
+    border-color: #5987cd;
 }
 .btn-primary .badge {
     color: #296bc2;
@@ -177,6 +177,15 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus,
 	color: #5987cd;
 	text-decoration: none;
 	background-color: #263035
+}
+.am-panel-card:not(.am-panel-card-muted):hover .card-icon-circle {
+    background-color: #5987cd;
+}
+.am-panel-card:not(.am-panel-card-muted):hover {
+    border: 1px solid #5987cd;
+}
+.text-primary {
+    color: #5987cd;
 }
 .footer {
     border-top: 1px solid #777;
